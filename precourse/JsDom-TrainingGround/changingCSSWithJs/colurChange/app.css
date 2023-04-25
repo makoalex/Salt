@@ -1,0 +1,21 @@
+
+.btn{
+    height:120px;
+    font-size: 1em;
+    padding: 20px;
+    background-color: #ffba08;
+    border: 1px solid transparent;
+    position: absolute;
+    border-radius: 2rem;
+    box-shadow: inset;
+}
+.btn:hover{
+    background-color: rgb(218, 33, 232);
+    
+}
+body{
+    background-color:#e4c1f9 ;
+}
+h1{
+    text-align: center;
+}

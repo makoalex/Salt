@@ -1,0 +1,39 @@
+.negative{
+
+    font-size: 2rem;
+    background-color: #e3d5ca;
+    color:#4a4e69;
+    width: 10em;
+    padding: 1em;
+    border-radius: 10px 100px / 120px;
+    margin-left: 1em;
+
+ 
+}
+.positive{
+    color: whitesmoke;
+    background-color: orange;
+    position: relative;
+    top:-100px;
+    left: 900px;
+}
+.huge{
+    font-size: x-large;
+}
+#firstName{
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+}
+button{
+    font-size: 1rem;
+    padding: 0.2em 1em;
+    border-radius: 10% / 50%;
+    color: #c9ada7;
+    background-color: #b5838d;
+}
+button:hover{
+    color:#f2e9e4;
+    border-radius: 3rem;
+   border: 0.3 em solid #9a8c98;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "jsfs-snallweeks-first-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^2.4.3",
+    "prompt-sync": "^4.2.0"
+  }
+}

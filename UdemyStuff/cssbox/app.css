@@ -1,0 +1,17 @@
+div{
+    width: 300px;
+    height: 70%;
+}
+#one{
+    background-color: #f08080;
+    border:2px solid white;
+    border-radius: 10px 100px / 120px;
+    
+    padding: 20px;
+}
+#two{
+    background-color: #f4978e;
+    border:2px solid white;
+    padding: 20px;
+    
+}

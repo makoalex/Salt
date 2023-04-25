@@ -1,0 +1,70 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background-color: #4a4e69;
+    padding: 0,7rem;
+    z-index: 1000   ;
+}
+ header .navbar ul{
+    list-style: none; 
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+    
+}
+header .navbar ul li a{
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #e0e1dd;
+    display: block;
+}
+a:hover{
+    background-color: #0d1b2a;
+}
+.nested{
+    list-style: none;
+}
+.position{
+    position: relative;
+    border:1px solid black;
+}
+header .navbar ul li ul{
+    background-color: #e0e1dd;
+    position:absolute;
+    left:-1px;
+    width: 200px;
+    height: 150px;
+    display: none;
+}
+
+.nested2{
+    position: relative;
+    right:70px;
+    top:27px
+}
+.nested3{
+    position: relative;
+    top:20px;
+    right: 5px;
+}
+.nested4{
+    position: relative;
+    right: 80px;
+    top:50px
+}
+.nested5{
+    position: relative;
+    top:45px;
+    right: 10px;
+}
+header .navbar ul li:hover>ul{
+    display: initial;
+}
