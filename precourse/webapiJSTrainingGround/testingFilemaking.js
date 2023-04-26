@@ -3,7 +3,7 @@ const fs = require("fs");
 
 // making a new folder with an html file using the NODE FS
 
-const folderName = process.argv[2]; // if undefined will create this one
+const folderName = process.argv[2]; 
 
 //making file within the folder and then in node we will write the name of the folder to be
 
