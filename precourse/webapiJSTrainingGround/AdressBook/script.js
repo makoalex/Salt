@@ -1,24 +1,34 @@
 //let addressBook = require("./address");
 const { json } = require("express");
 const express = require("express");
+const path = require("path");
+const app = express();
 const fs = require("fs");
 app.use(express.json());
 app.set("view engine", "ejs");
-const app = express();
+app.set("views", path.join(__dirname, "views"));
+app.set("view engine", "ejs");
 
 const addressBook = JSON.parse(fs.readFileSync("./data/Address.json"));
 
 app.get("/", (req, res) => {
-  res.render("home.ejs");
+  res.render('');
 });
 app.get("/api/addresbook", (req, res) => {
-  res.status(200).json({
-    status: "success",
-    count: addressBook.length,
-    data: {
-      addressBook: addressBook,
-    },
-  });
+  //res
+    //.status(200)
+    /*.json({
+      status: "success",
+      count: addressBook.length,
+      data: {
+        addressBook: addressBook,
+      },
+    })
+    */
+    //const newL= JSON.stringify(addressBook)
+    //const NewJ= JSON.parse(newL)
+    //console.log(NewJ)
+    res.render('book/index.ejs', {addressBook})
 });
 //getting an element
 

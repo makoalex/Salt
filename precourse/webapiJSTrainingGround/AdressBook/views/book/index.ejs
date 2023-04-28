@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Book</title>
+</head>
+
+<body style="background-color:#dfe3e6; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+    <h1 style="text-align: center;">Address Book depository</h1>
+    <div style="width: 34rem; height: 10rem;border-radius: 30px; background: #e0e0e0; text-align: center;box-shadow: 15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff;padding: 10px; margin: 2rem;">
+    <ul >
+        <% for (let a of addressBook) {%>
+            <li><b><%=a.name %></b> -<%=a.address %><%=a.number  %> <%= a.Po %> </li>
+            <% } %>
+    </ul>
+    </div>
+</body>
+</html>
